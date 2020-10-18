@@ -4,7 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        voweldetector myVowelDetector = new voweldetector();
+        MonthDayYear chatterbox = new MonthDayYear();
+        PhD bob = new PhD("Bob",2016,5,16);
+        PhD joe = new PhD("joe",1916,5,16,bob);
+        PhD bil = new PhD("Bil",1816,5,16,joe,bob);
+        System.out.println(bob);
+        System.out.println(joe);
+        System.out.println(bil);
+        /*voweldetector myVowelDetector = new voweldetector();
+
         if(myVowelDetector.findVowels("YTHRWQ")){
             System.out.println("Yay it is not mindless!");
         }else{
@@ -18,6 +26,7 @@ public class Main {
             System.out.println("Oh Dear");
 
         }
+        System.out.println(chatterbox.tellMeDate(10,89898981,2020));*/
 
     }
 }
