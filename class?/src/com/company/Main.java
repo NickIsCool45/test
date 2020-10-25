@@ -8,9 +8,14 @@ public class Main {
         PhD bob = new PhD("Bob",2016,5,16);
         PhD joe = new PhD("joe",1916,5,16,bob);
         PhD bil = new PhD("Bil",1816,5,16,joe,bob);
+        bob.setAdvisor1(bob);
+        bob.setAdvisor2(bil);
+        joe.setAdvisor2(bil);
+        bil.setAdvisor1(bil);
         System.out.println(bob);
         System.out.println(joe);
         System.out.println(bil);
+        bob.sayAdvisees();
         /*voweldetector myVowelDetector = new voweldetector();
 
         if(myVowelDetector.findVowels("YTHRWQ")){
