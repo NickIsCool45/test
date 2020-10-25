@@ -4,6 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+        sameMiddleDetector sameMiddleMachine = new sameMiddleDetector();
+        if(sameMiddleMachine.detectSameMiddles("addc")){
+            System.out.println("It is true!");
+        }else{
+            System.out.println("It is not!");
+        }
+        /*MysteryNumberComparer mysteryNumberMachine = new MysteryNumberComparer();
+        System.out.println(mysteryNumberMachine.doMysteryStuffWithMyNumbers(3,2,false));
         MonthDayYear chatterbox = new MonthDayYear();
         PhD bob = new PhD("Bob",2016,5,16);
         PhD joe = new PhD("joe",1916,5,16,bob);
@@ -16,7 +24,7 @@ public class Main {
         System.out.println(joe);
         System.out.println(bil);
         bob.sayAdvisees();
-        /*voweldetector myVowelDetector = new voweldetector();
+        voweldetector myVowelDetector = new voweldetector();
 
         if(myVowelDetector.findVowels("YTHRWQ")){
             System.out.println("Yay it is not mindless!");
