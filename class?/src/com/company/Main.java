@@ -4,13 +4,19 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+        StringShifter StringShifterMachine = new StringShifter();
+        System.out.println(StringShifterMachine.shiftThisString("siautregxhjcvgfsyu",5));
+        /*ParentalControl ParentalControlMachine = new ParentalControl();
+    System.out.println(ParentalControlMachine.parentsGetControl("wqri2y35irkjfhgkeguteuwyrtwueyrtweuyrtuywetwyuhwq3167824iytwegjdhftwuy13764$%#%45"));
+        MysteryNumberComparer mysteryNumberMachine = new MysteryNumberComparer();
+        System.out.println(mysteryNumberMachine.doMysteryStuffWithMyNumbers(3,4,9));
         sameMiddleDetector sameMiddleMachine = new sameMiddleDetector();
         if(sameMiddleMachine.detectSameMiddles("addc")){
             System.out.println("It is true!");
         }else{
             System.out.println("It is not!");
         }
-        /*MysteryNumberComparer mysteryNumberMachine = new MysteryNumberComparer();
+        MysteryNumberComparer mysteryNumberMachine = new MysteryNumberComparer();
         System.out.println(mysteryNumberMachine.doMysteryStuffWithMyNumbers(3,2,false));
         MonthDayYear chatterbox = new MonthDayYear();
         PhD bob = new PhD("Bob",2016,5,16);
