@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         StringShifter StringShifterMachine = new StringShifter();
-        System.out.println(StringShifterMachine.shiftThisString("siautregxhjcvgfsyu",5));
+        System.out.println(StringShifterMachine.shiftThisString("qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM",78));
         /*ParentalControl ParentalControlMachine = new ParentalControl();
     System.out.println(ParentalControlMachine.parentsGetControl("wqri2y35irkjfhgkeguteuwyrtwueyrtweuyrtuywetwyuhwq3167824iytwegjdhftwuy13764$%#%45"));
         MysteryNumberComparer mysteryNumberMachine = new MysteryNumberComparer();
